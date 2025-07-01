@@ -12,3 +12,12 @@ __pycache__/
 
 # dotenv / secrets (if any)
 *.env
+
+# Ignore node_modules everywhere
+node_modules
+# Ignore Python virtual environments
+venv
+# macOS
+.DS_Store
+# Logs
+*.log
