@@ -1,6 +1,5 @@
 import axios from 'axios';
 
-// Change to your backend URL if running elsewhere
 const API_BASE = "http://localhost:8000";
 
 export const fetchNews = async () => {
