@@ -13,7 +13,6 @@ def fetch_latest_news(ticker=None):
     )
     response = requests.get(url)
     data = response.json()
-    # Extract top 5 headlines with published date
     articles = data.get("articles", [])
     headlines = [
         {
