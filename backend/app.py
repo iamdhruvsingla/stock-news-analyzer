@@ -6,7 +6,6 @@ from stock_fetcher import fetch_stock_price
 
 app = FastAPI()
 
-# 👇 add this part
 origins = [
     "http://localhost:3000"
 ]
